@@ -1,9 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  target: 'serverless',
+  output: {
+    export: true,
+  },
 };
-
-
 
 export default nextConfig;
