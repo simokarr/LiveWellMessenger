@@ -31,7 +31,7 @@ export default function Page(props: ChatProps) {
     </button>
       <PrettyChatWindow
         projectId="32b58e76-3902-4cfe-a8cb-d6ddc210b648"
-        username={props.user.email || ""}
+        username={props.user.email || "Guest"}
         secret={props.user.uid}
         style={{ height: "100%" }}
       />
